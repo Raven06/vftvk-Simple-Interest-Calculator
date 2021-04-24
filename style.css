@@ -43,9 +43,11 @@ label {
     grid-column: 1 / 2;
 }
 select{
-    width: 40px
+    width: 40px;
+    border-radius: 7px;
 }
-input,
+input
  {
+    border-radius: 7px;
     grid-column: 2 / 3;
 }
