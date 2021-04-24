@@ -7,6 +7,7 @@ function compute(){
     if(principal<=0){
         //checks if amount is positive
         alert("Enter a positive nummber")
+         document.getElementById("principal").focus();
     }
     else{
         document.getElementById("result").innerHTML="If you deposit  <span class='simple-highlight'>"+principal+"</span>,\<br\>at an interest rate of <span class='simple-highlight'>"+rate+"%</span>\<br\>You will receive an amount of <span class='simple-highlight'>"+interest+"</span>,\<br\>in the year <span class='simple-highlight'>"+year+"</span>\<br\>"
