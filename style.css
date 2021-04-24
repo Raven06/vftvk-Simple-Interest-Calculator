@@ -17,7 +17,7 @@ h1 {
   border-radius: 25px;
   margin-right: auto;
   margin-left: auto;
-  float:left;
+   align-items: center;
 }
 
 .simple-highlight {
