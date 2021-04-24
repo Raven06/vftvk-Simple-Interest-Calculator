@@ -1,16 +1,51 @@
-body {background-color:black;font-family:arial;color:white}
-h1{color:grey;font-family:verdana}
-.maindiv {
-    background-color:white;
-    color:black;
-    width:300px;
-    padding:20px;
-    border-radius:25px;
-    margin-right:auto;
-    margin-left:auto;
+body {
+  background-color: black;
+  font-family: arial;
+  color: white;
 }
 
-.simple-highlight{
- background-color:yellow;
- padding:0.1em 0.2em;
+h1 {
+  color: grey;
+  font-family: verdana;
+}
+
+.maindiv  {
+  background-color: white;
+  color: black;
+  width: 600px;
+  padding: 20px;
+  border-radius: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  float:left;
+}
+
+.simple-highlight {
+  background-color: yellow;
+  padding: 0.1em 0.2em;
+}
+
+.output{
+     margin-right: 20px;
+    margin-left: 20px;
+}
+form {
+    padding: 20px;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 1px;
+}
+
+label {
+    grid-column: 1 / 2;
+}
+select{
+    width: 40px
+}
+input,
+ {
+    grid-column: 2 / 3;
 }
